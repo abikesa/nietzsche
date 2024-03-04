@@ -1,4 +1,4 @@
-- Mismatch/: Skills, Challenges
+- Mismatch/`Convalescence`: Skills, Challenges
 - Victory/: Flow, `Growth`
 - Ragnarok/`Twilight`: Worthy Adversary, Arms Race
 
