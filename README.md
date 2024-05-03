@@ -20,12 +20,12 @@
 6. Expression
 ### Art/`Olympians`
 ##### (Extensions/Cast: 11th, 13th)
-3. Diatonic/Mundane: Apollo
-4. Chromatic: Dionysus
+3. Diatonic/Mundane: Apollo (11th)
+4. Chromatic: Dionysus (13th)
 ### God/`Protogenoi`
 ##### (Foundation/Stage: 1st, 3rd, 5th, ♭♭7, 9th)
 1. Root/Ecclessiastical: Erebus
-2. Pentatonic: Chaos, Gaia, Tartarus, Eros, Nyx
+2. Pentatonic: [Chaos (1st), Gaia (9th), Tartarus (3rd)], [Eros (5th), Nyx (♭♭7)]
 
 
 
