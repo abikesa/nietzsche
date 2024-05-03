@@ -1,4 +1,4 @@
-> *Frailty commeth upon [Russell Brand](https://www.youtube.com/watch?v=ai9f0Vbfwg0)!*     
+> *[Frailty](https://en.wikipedia.org/wiki/Syncretism) commeth upon [Russell Brand](https://www.youtube.com/watch?v=ai9f0Vbfwg0)!*     
 *Music is the ultimate metaphor*       
 *Yes, it `resonates` with me*
 ![](frontier.png)  
