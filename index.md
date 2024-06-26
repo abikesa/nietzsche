@@ -1,6 +1,6 @@
 > *Here is announced, perhaps for the first time, a pessimism "beyond good and evil."         
-> In the spirit of music: no key, note, or chord is wrong for any given key signature)        
-> We shall dance in this life's fetters like free-est of spirits, channeling passing chords ...*
+> In the spirit of music: no key, note, or chord is wrong for any given key signature                  
+> We shall dance in this life's fetters like free'st of spirits, channeling passing chords ...*         
 
                      1. Pessimism
                                  \
