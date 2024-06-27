@@ -1,6 +1,10 @@
-> *Here is announced, perhaps for the first time, a pessimism "beyond good and evil."         
-> In the spirit of music: no key, note, or chord is wrong for any given key signature                  
-> We shall dance in this life's fetters like free'st of spirits, channeling passing chords ...*         
+
+
+>*Here is announced, perhaps for the first time, a pessimism "beyond good and evil."            
+>In the spirit of music: no key, note, or chord is wrong for any given key signature.         
+>We shall dance in this life's fetters like the freest of spirits, channeling passing chords...*       
+
+     
 
                      1. Pessimism
                                  \
@@ -36,17 +40,23 @@
 ### Apollo 5, 6
 - Metaphysical comfort: classifying everything into good & evil, and eliminating one 
 
-# "Beyond Good and Evil" (1886)
+# _Becoming_
 
-1. **Senses & Affirmation of Life**: Nietzsche's philosophy evolved towards an affirmation of life, embracing chaos, passion, and the will to power, which are more closely aligned with the Dionysian. The Dionysian embodies the primal forces of life and creation, elements Nietzsche increasingly valued.
+1. "The Birth of Tragedy: Out of the Spirit of Music" (1872):
+Indeed, this was Nietzsche's first book, where he introduced the Apollonian-Dionysian duality. The musical metaphor is not just an illustrative device but a fundamental aspect of his early philosophy. He saw Greek tragedy as born from the union of Apollonian form and Dionysian music.
 
-2. **Mind & Critique of Rationality**: Nietzsche became increasingly critical of Enlightenment rationality and the constraints it imposed on human creativity and vitality. The Apollonian, with its association to order and reason, may have come to represent these constraints, which Nietzsche saw as life-denying.
+2. Critique of Kant and Schopenhauer:
+You're right to highlight that Nietzsche's later work represents a significant departure from his earlier views, which were heavily influenced by Kant and Schopenhauer. The mature Nietzsche indeed critiqued the dialectical formula of Apollonian + Dionysian = Tragedy.
 
-3. **Tools & Schopenhauerian Influence**: Initially influenced by Schopenhauer’s philosophy, which emphasized the world as representation (Apollonian) and the world as will (Dionysian), Nietzsche eventually critiqued and moved beyond Schopenhauer’s pessimism. He found a more affirmative vision in the Dionysian, which celebrated the will to life and artistic creation without the need for the Apollonian counterbalance.
+3. Evolution of Nietzsche's thought:
+The shift from the 28-year-old Nietzsche to the 44-year-old Nietzsche represents a profound philosophical journey. His later works, like "Beyond Good and Evil" (1886) and "On the Genealogy of Morality" (1887), showcase a more nuanced and critical approach to morality and traditional philosophy.
 
-4. [Personal Evolution](https://www.gutenberg.org/files/1998/1998-h/1998-h.htm#link2H_4_0003): Nietzsche’s own intellectual journey and psychological struggles likely played a role. His break with Wagner, the symbol of his early Apollonian-Dionysian synthesis, marked a significant personal and philosophical shift. Wagner’s later work, which Nietzsche saw as nationalistic and decadent, contrasted sharply with the pure artistic vision Nietzsche once admired. He no longer believes in the interplay of opposing forces leading to a higher synthesis. That, to him, began to reek of a `Will-to-systematizing`
+4. Rejection of simple dialectics:
+Nietzsche's mature philosophy rejects the neat synthesis of opposing forces that he initially proposed. This reflects his growing skepticism towards systematic philosophy and his embrace of a more fluid, life-affirming perspective.
 
-5. Dionysian as Pessimism. Nietzsche’s shift from the duality of the Apollonian (rational, ordered, and beautiful) and Dionysian (chaotic, ecstatic, and sublime) to a more exclusive focus on the Dionysian reflects his evolving philosophical perspective and his eventual disillusionment with the overly structured, rational side represented by the Apollonian. This is his embrace of a pessimism that permeates his mature works ([nihilism?](https://abikesa.github.io/zarathustra/)). This Dionysian monster thought the human race was irredeemable, as did Solomon in Ecclesiastics, Shakespears in Macbeth, and Mozart in Don Giovani.
-   
-6. Optimism as Apollonian. An [exuberant optimism](https://www.gutenberg.org/files/174/174-h/174-h.htm) that has a Bishop reciting at 80 years what he has been doing since he was 18 years 
+5. From balance to Dionysian emphasis:
+The move from seeking a balance between Apollonian and Dionysian elements to a more Dionysian-centric philosophy reflects Nietzsche's increasing emphasis on life affirmation and his critique of rationality as life-denying.
+
+6. Self-critique:
+Nietzsche's embarrassment at his earlier work shows his intellectual honesty and willingness to evolve. This self-critical stance is itself a very Nietzschean trait, reflecting his philosophy of constant self-overcoming.
 
