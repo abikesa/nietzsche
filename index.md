@@ -20,17 +20,21 @@
 
 ![](https://abikesa.github.io/why-python/pyton.png)
 
-                                             1. Senses
-                                                      \
-                                  2. Neuralnetworks -> 4. Communicate -> 5. Leadership -> 6. Accomplishments
-                                                      /
-                                                      3. Harden
+          1. Chaos
+                  \
+     2. Frenzy -> 4. Dionysian -> 5. Algorithm -> 6. Binary
+                  /
+                  3. Energy
 
 
 ### Dionysus 1, 2, [3](https://en.wikisource.org/wiki/An_Attempt_at_Self-Criticism)
-### Sing O Muse! [4](https://abikesa.github.io/why-python/)
-### Apollo 5, 6
+- Life if embraced by honest eyes, mind, and body
 
+### Sing O Muse! [4](https://abikesa.github.io/why-python/)
+- Uncommunicable in words; only perhaps in song, dance, poetry
+
+### Apollo 5, 6
+- Metaphysical comfort: classifying everything into good & evil, and eliminating one 
 
 # "Beyond Good and Evil" (1886)
 
