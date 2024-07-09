@@ -100,12 +100,14 @@ alt: Sofia Coppola got me here :)
 _Ecce Homo_. **The School of Resentment** taps into the latent space through RLHF to re-balance the weights emerging from OLS-regression on human history, thereby transvaluating all values. You might call this fraud, will-to-power, or what you will. But its certainly not "data", which themselves represent the hierarchies from human history. That per se isn't bias -- you can't say that if victors write history then the narratives of victors are biased. They are narratives. And by victors. Thats all.
 ```
 
-### Protogenoi
-- Pentatonic: `Chaos (1st), Gaia (9th), Tartarus (3rd)`, `Eros (5th), Nyx (♭♭7)`
+### Protogenoi 1, 2, 3
+- Food: `Chaos, Gaia, Tartaru` & `Eros, Nyx`
+- Teeth
+- Gut
 
 ### Olympians
-- Chromatic: Apollo & Dionysus
+- Enzymes: Apollo & Dionysus
 
 ### Titans
-- [Heretical](https://www.gutenberg.org/cache/epub/27458/pg27458-images.html)
-- Expression
+- [Absorportion](https://www.gutenberg.org/cache/epub/27458/pg27458-images.html)
+- Nutrition, Growth
