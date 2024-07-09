@@ -4,7 +4,7 @@
 
                      1. Pessimism
                                  \
-        2. Beyond Good & Evil -> 4. Parameters, Weights, Hierarchy, Values, Latent-Space -> 5. Zarathustra, Decoder -> 6. Rebalance, Ethics
+        2. Beyond Good & Evil -> 4. Parameters, Weights, Hierarchy, Values, Latent-Space -> 5. Zarathustra, Decoder -> 6. Rebalance, Ethics, Transvaluation`
                                  /
                                  3. Ecce Homo
 
@@ -12,6 +12,7 @@
 ```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/1200px-Nietzsche187a.jpg
 ---
 height: 500px
+width: 100%
 name: open-access-citations
 alt: A plot 
 ---
