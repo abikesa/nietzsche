@@ -15,7 +15,7 @@
                                  /
                                  3. Robustness
 
-```{figure} blanche.png
+```{figure} ../../figures/blanche.png
 ---
 width: 1px
 height: 1px
@@ -34,7 +34,9 @@ _Attempt at Self-Criticism_.
 ### Systematized  5, 6
 - `♭9,♯9,♯11,♭13` Temperament
 
-```{figure} https://abikesa.github.io/why-python/python.png
+![](https://abikesa.github.io/why-python/python.png)
+
+```{figure}  ../../figures/blanche.png  
 ---
 width: 1px
 height: 1px
@@ -49,7 +51,7 @@ _DAG_.
                   \
      2. Frenzy -> 4. Dionysian -> 5. Algorithm -> 6. Binary
                   /
-                  3. Energy
+                  3. Ener`gy
 
 
 ### Dionysus 1, 2, [3](https://en.wikisource.org/wiki/An_Attempt_at_Self-Criticism)
@@ -102,7 +104,7 @@ Nietzsche's embarrassment at his earlier work shows his intellectual honesty and
                                  3. Ecce Homo
 
 
-```{figure} ../../blanche.png
+```{figure} ../../figures/blanche.png
 ---
 width: 1px
 height: 1px
