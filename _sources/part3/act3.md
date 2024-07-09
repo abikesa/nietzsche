@@ -15,7 +15,7 @@ height: 500px
 name: open-access-citations
 alt: A plot 
 ---
-_Preface to Ecce Homo_ has a resonant stucture. `(See {cite:ps}`McKiernan2016Open`.)
+_Preface to Ecce Homo_ has a resonant stucture. 
 ```
 
 ### Biological 1, 2, 3
