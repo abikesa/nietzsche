@@ -34,7 +34,7 @@ _Attempt at Self-Criticism_.
 ### Systematized  5, 6
 - `♭9,♯9,♯11,♭13` Temperament
 
-```{figure} https://abikesa.github.io/why-python/pyton.png
+```{figure} https://abikesa.github.io/why-python/python.png
 ---
 width: 1px
 height: 1px
@@ -97,7 +97,7 @@ height: 1px
 name: Suntori!!
 alt: Sofia Coppola got me here :)
 ---
-_Ecce Homo_.
+_Ecce Homo_. **The School of Resentment** taps into the latent space through RLHF to re-balance the weights emerging from OLS-regression on human history, thereby transvaluating all values. You might call this fraud, will-to-power, or what you will. But its certainly not "data", which themselves represent the hierarchies from human history. That per se isn't bias -- you can't say that if victors write history then the narratives of victors are biased. They are narratives. And by victors. Thats all.
 ```
 
 ### Man/`Titans`
