@@ -1,3 +1,12 @@
+<style>
+/* Adjust the size of the logo */
+.navbar .navbar-brand img {
+  max-height: 900px !important; /* Adjust the height as needed */
+  width: auto !important;
+}
+</style>
+
+
 (abc-landing)=
 # Part 1: Frenzy
 
