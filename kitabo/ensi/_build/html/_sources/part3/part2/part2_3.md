@@ -53,13 +53,13 @@ _DAG_.
 
 
 ### Dionysus 1, 2, [3](https://en.wikisource.org/wiki/An_Attempt_at_Self-Criticism)
-- Life if embraced by honest eyes, mind, and body
+- Life if embraced by honest eyes, mind, and body: `biological`
 
 ### Sing O Muse! [4](https://abikesa.github.io/why-python/)
-- Uncommunicable in words; only perhaps in song, dance, poetry
+- Uncommunicable in words; collective-unconscious, perhaps in dreams, song, dance, poetry: `social`
 
 ### Apollo 5, 6
-- Metaphysical comfort: classifying everything into good & evil, and eliminating one 
+- Metaphysical comfort: classifying everything into good & evil, and eliminating one: `pesronal`
 
 # _Becoming_
 
