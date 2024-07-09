@@ -82,6 +82,18 @@ The move from seeking a balance between Apollonian and Dionysian elements to a m
 Nietzsche's embarrassment at his earlier work shows his intellectual honesty and willingness to evolve. This self-critical stance is itself a very Nietzschean trait, reflecting his philosophy of constant self-overcoming.
 
 
+### Protogenoi 1, 2, 3
+- Food: `Chaos, Gaia, Tartaru` & `Eros, Nyx`
+- Teeth
+- Gut
+
+### Olympians
+- Enzymes: Apollo & Dionysus
+
+### Titans
+- [Absorportion](https://www.gutenberg.org/cache/epub/27458/pg27458-images.html)
+- Nutrition, Growth
+
 
                      1. Pessimism
                                  \
@@ -97,17 +109,7 @@ height: 1px
 name: Suntori!!
 alt: Sofia Coppola got me here :)
 ---
-_Ecce Homo_. **The School of Resentment** taps into the latent space through RLHF to re-balance the weights emerging from OLS-regression on human history, thereby transvaluating all values. You might call this fraud, will-to-power, or what you will. But its certainly not "data", which themselves represent the hierarchies from human history. That per se isn't bias -- you can't say that if victors write history then the narratives of victors are biased. They are narratives. And by victors. Thats all.
+_[Ecce Homo](https://www.gutenberg.org/files/52190/52190-h/52190-h.htm)_. [The School of Resentment](https://en.wikipedia.org/wiki/The_Western_Canon#School_of_resentment) taps into the latent space through RLHF to re-balance the weights emerging from OLS-regression on human history, thereby transvaluating all values. You might call this fraud, will-to-power, or what you will. But its certainly not "data", which themselves represent the hierarchies from human history. That per se isn't bias -- you can't say that if victors write history then the narratives of victors are biased. They are narratives. And by victors. Thats all.
 ```
 
-### Protogenoi 1, 2, 3
-- Food: `Chaos, Gaia, Tartaru` & `Eros, Nyx`
-- Teeth
-- Gut
-
-### Olympians
-- Enzymes: Apollo & Dionysus
-
-### Titans
-- [Absorportion](https://www.gutenberg.org/cache/epub/27458/pg27458-images.html)
-- Nutrition, Growth
+> *How much truth can a certain mind endure; how much truth can it dare? These questions became for me ever more and more the actual test of values.*
