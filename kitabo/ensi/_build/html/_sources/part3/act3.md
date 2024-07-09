@@ -1,12 +1,6 @@
 (rr-open)=
 # Ecce Homo
 
-(rr-open-prerequisites)=
-## Prerequisites
-
-| Prerequisite | Importance | Notes |
-| -------------|----------|------|
-| {ref}`rr-vcs` | Helpful | Experience with GitHub is particularly useful |
 
                      1. Pessimism
                                  \
@@ -15,13 +9,13 @@
                                  3. Ecce Homo
 
 
-```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/1200px-Nietzsche187a.jpg`
+```{figure} https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Nietzsche187a.jpg/1200px-Nietzsche187a.jpg
 ---
 height: 500px
 name: open-access-citations
 alt: A plot 
 ---
-The relative citation rate (OA: non-OA) in 19 fields of research. This rate is defined as the mean citation rate of OA articles divided by the mean citation rate of non-OA articles. Multiple points for the same discipline indicate different estimates from the same study or estimates from several studies. (See {cite:ps}`McKiernan2016Open`.)
+_Preface to Ecce Homo_ has a resonant stucture. `(See {cite:ps}`McKiernan2016Open`.)
 ```
 
 ### Biological 1, 2, 3
