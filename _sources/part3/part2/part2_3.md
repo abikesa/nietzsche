@@ -85,12 +85,12 @@ Nietzsche's embarrassment at his earlier work shows his intellectual honesty and
 
                      1. Pessimism
                                  \
-        2. Beyond Good & Evil -> 4. Parameters, Weights, Hierarchy, Values, Latent-Space -> 5. Zarathustra, Decoder -> 6. Application
+        2. Beyond Good & Evil -> 4. Parameters, Weights, Hierarchy, Values, Latent-Space -> 5. Zarathustra, Decoder -> 6. Rebalance, Ethics
                                  /
                                  3. Ecce Homo
 
 
-```{figure} blanche.png
+```{figure} ../../blanche.png
 ---
 width: 1px
 height: 1px
@@ -100,15 +100,12 @@ alt: Sofia Coppola got me here :)
 _Ecce Homo_. **The School of Resentment** taps into the latent space through RLHF to re-balance the weights emerging from OLS-regression on human history, thereby transvaluating all values. You might call this fraud, will-to-power, or what you will. But its certainly not "data", which themselves represent the hierarchies from human history. That per se isn't bias -- you can't say that if victors write history then the narratives of victors are biased. They are narratives. And by victors. Thats all.
 ```
 
-### Man/`Titans`
-##### (Alterations/Meaning: ♭9,♯9,♯11,♭13) 
-5. Temperament/[Heretical](https://www.gutenberg.org/cache/epub/27458/pg27458-images.html)
-6. Expression
-### Art/`Olympians`
-##### (Extensions/Cast: 11th, 13th)
-3. Diatonic/Mundane: Apollo (11th)
-4. Chromatic: Dionysus (13th)
-### God/`Protogenoi`
-##### (Foundation/Stage: 1st, 3rd, 5th, ♭♭7, 9th)
-1. Root/Ecclessiastical: Erebus
-2. Pentatonic: [Chaos (1st), Gaia (9th), Tartarus (3rd)], [Eros (5th), Nyx (♭♭7)]
+### Protogenoi
+- Pentatonic: `Chaos (1st), Gaia (9th), Tartarus (3rd)`, `Eros (5th), Nyx (♭♭7)`
+
+### Olympians
+- Chromatic: Apollo & Dionysus
+
+### Titans
+- [Heretical](https://www.gutenberg.org/cache/epub/27458/pg27458-images.html)
+- Expression
