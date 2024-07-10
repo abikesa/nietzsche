@@ -34,3 +34,9 @@ _Preface to Ecce Homo_ has a resonant stucture.
 ### Personal 5, 6
 - _[Decoders](https://www.youtube.com/watch?v=jadWYEzk58Y)_. I bid you lose me and find yourselves; and only when ye have all denied me will I come back unto you
 - _Transvaluation_. No fanatic speaks to you here; this is not a "sermon"; no faith is demanded in these pages; here it is not a "prophet" who speaks
+
+                       1. Chaos
+                               \
+        2. Tartarus-Aesther -> 4. Nyx-Erabus -> 5. Eros -> 6. Ananke
+                               /
+                               3. Gaia-Uranus
