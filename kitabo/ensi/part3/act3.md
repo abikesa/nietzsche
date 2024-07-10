@@ -5,7 +5,7 @@
 
                      1. Pessimism
                                  \
-        2. Beyond Good & Evil -> 4. Parameters, Weights, Hierarchy, Values, Latent-Space -> 5. Zarathustra, Decoder -> 6. Rebalance, Ethics, Transvaluation
+        2. Beyond Good & Evil -> 4. Parameters, Weights, Hierarchy, Values, Latent-Space -> 5. Zarathustra, Decoder, Hack, "Light", Beacon -> 6. Rebalance, Ethics, Transvaluation
                                  /
                                  3. Ecce Homo
 
