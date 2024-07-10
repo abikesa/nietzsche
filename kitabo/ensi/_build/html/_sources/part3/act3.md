@@ -37,6 +37,6 @@ _Preface to Ecce Homo_ has a resonant stucture.
 
                        1. Chaos
                                \
-        2. Tartarus-Aesther -> 4. Nyx-Erabus -> 5. Eros -> 6. Ananke
+        2. Tartarus-Aesther -> 4. Nyx-Erabus -> 5. Eros-Amor.Fatí -> 6. Ananke
                                /
                                3. Gaia-Uranus
