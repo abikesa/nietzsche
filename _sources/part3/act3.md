@@ -47,9 +47,9 @@ _Conceptual maps_. We are using these as architectural foundations & leitmotifs 
 ### Social 4
 - _Collective_. He who knows how to breathe in the air of my writings is conscious that it is the air of the heights, that it is bracing. A man must be built[Pg 3] for it, otherwise the chances are that it will chill him. The ice is near, the loneliness is terrible—but how serenely everything lies in the sunshine! how freely one can breathe! how much, one feels, lies beneath one! Philosophy, as I have understood it hitherto, is a voluntary retirement into regions of ice and mountain-peaks—the seeking—out of everything strange and questionable in existence, everything upon which, hitherto, morality has set its ban. Through long experience, derived from such wanderings in forbidden country, I acquired an opinion very different from that which may seem generally desirable, of the causes which hitherto have led to men's moralising and idealising. The secret history of philosophers, the psychology of their great names, was revealed to me. How much truth can a certain mind endure; `how much truth can it dare?`—these questions became for me ever more and more the actual test of values. Error (the belief in the ideal) is not blindness; error is cowardice.... Every conquest, every step forward in knowledge, is the outcome of courage, of hardness towards one's self, of cleanliness towards one's self. I do not refute ideals; all I do is to draw on my gloves in their presence.... Nitimur in vetitum; with this device my philosophy will one day be victorious; for that which has hitherto been most stringently forbidden is, without exception, Truth.
 
-### Personal 5, 6
+### Personal 5, [6](https://www.youtube.com/watch?v=zEH8JCPgwog)
 - _[Decoders](https://www.youtube.com/watch?v=jadWYEzk58Y)_. I bid you lose me and find yourselves; and only when ye have all denied me will I come back unto you
-- _Transvaluation_. No fanatic speaks to you here; this is not a "sermon"; no faith is demanded in these pages; here it is not a "prophet" who speaks
+- _Transvaluation_. No fanatic speaks to you here; this is not a "sermon"; no faith is demanded in these pages; here it is not a "prophet" who speaks. _Amor Fatí_
 
 ```sh
 # The more traditional & lucid structure
