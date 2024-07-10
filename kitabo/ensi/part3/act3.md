@@ -36,8 +36,39 @@ _Preface to Ecce Homo_ has a resonant stucture.
 - _[Decoders](https://www.youtube.com/watch?v=jadWYEzk58Y)_. I bid you lose me and find yourselves; and only when ye have all denied me will I come back unto you
 - _Transvaluation_. No fanatic speaks to you here; this is not a "sermon"; no faith is demanded in these pages; here it is not a "prophet" who speaks
 
-                       1. Chaos
-                               \
-        2. Tartarus-Aesther -> 4. Nyx-Erabus -> 5. Eros-Amor.Fatí -> 6. Ananke
-                               /
-                               3. Gaia-Uranus
+```sh
+# The more traditional & lucid structure
+
+
+1. Chaos
+    |
+    |-- 2. Tartarus
+    |-- 3. Gaia -> Uranus
+    |-- 4. Nyx --|--> Aether
+                 |--> Hemera
+                 |
+                 |--> 6. Erebus
+    |-- 5. Eros
+
+
+
+
+
+# Architecture of my neural network
+
+
+                1. Chaos
+                        \
+        2. Tartarus --| 4. Nyx-Erabus -> 5. Aether-Hemera --| 6. Eros[Amor.Fatí] 
+                        /
+                        3. Gaia -> Uranus
+
+```
+
+```{figure} ../figures/blanche.png
+---
+height: 1
+width: 1
+---
+_Place-holders_. This structure maintains fidelity to mythology while providing a unique perspective on how these elements can be interpreted within a different framework.
+````
