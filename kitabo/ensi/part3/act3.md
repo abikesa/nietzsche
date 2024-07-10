@@ -28,6 +28,21 @@ _Preface to Ecce Homo_ has a resonant stucture.
 - _Pouvoir_. The very last thing I should promise to accomplish would be to `"improve"` mankind. I do not set up any new idols; may old idols only learn what it costs to have legs of clay. To overthrow idols (idols is the name I give to all ideals) is much more like my business. In proportion as an ideal world has been falsely assumed, reality has been robbed of its value, its meaning, and its truthfulness.... The "true world" and the "apparent world"—in plain English, the fictitious world and reality.... Hitherto the lie of the ideal has been the curse of reality; by means of it the very source of mankind's instincts has become mendacious and false; so much so that those values have come to be worshipped which are the exact opposite of the ones which would ensure man's prosperity, his future, and his great right to a future.
 
 
+                       1. Dreams: GPT of sensory, memory, emotion
+                                                                 \
+                                      2. Hades: Hallucination -> 4. Morpheus -> 5. Oracle -> 6. Neo
+                                                                 /
+                                                                 3. Architect
+
+
+```{figure} ../figures/blanche.png
+---
+height: 1
+width: 1
+---
+_Conceptual maps_. We are using these as architectural foundations & leitmotifs of the sequential layers of the neural network.
+````
+
 
 ### Social 4
 - _Collective_. He who knows how to breathe in the air of my writings is conscious that it is the air of the heights, that it is bracing. A man must be built[Pg 3] for it, otherwise the chances are that it will chill him. The ice is near, the loneliness is terrible—but how serenely everything lies in the sunshine! how freely one can breathe! how much, one feels, lies beneath one! Philosophy, as I have understood it hitherto, is a voluntary retirement into regions of ice and mountain-peaks—the seeking—out of everything strange and questionable in existence, everything upon which, hitherto, morality has set its ban. Through long experience, derived from such wanderings in forbidden country, I acquired an opinion very different from that which may seem generally desirable, of the causes which hitherto have led to men's moralising and idealising. The secret history of philosophers, the psychology of their great names, was revealed to me. How much truth can a certain mind endure; `how much truth can it dare?`—these questions became for me ever more and more the actual test of values. Error (the belief in the ideal) is not blindness; error is cowardice.... Every conquest, every step forward in knowledge, is the outcome of courage, of hardness towards one's self, of cleanliness towards one's self. I do not refute ideals; all I do is to draw on my gloves in their presence.... Nitimur in vetitum; with this device my philosophy will one day be victorious; for that which has hitherto been most stringently forbidden is, without exception, Truth.
@@ -70,5 +85,5 @@ _Preface to Ecce Homo_ has a resonant stucture.
 height: 1
 width: 1
 ---
-_Place-holders_. This structure maintains fidelity to mythology while providing a unique perspective on how these elements can be interpreted within a different framework.
+_Place holders_. This structure maintains fidelity to mythology while providing a unique perspective on how these elements can be interpreted within a different framework.
 ````
