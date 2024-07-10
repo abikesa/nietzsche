@@ -74,7 +74,7 @@ _Conceptual maps_. We are using these as architectural foundations & leitmotifs 
 
                 1. Chaos
                         \
-        2. Tartarus --| 4. Nyx-Erabus -> 5. Aether-Hemera --| 6. Eros[Amor.Fatí] 
+         2. Tartarus -- 4. Nyx.Erabus -> 5. Aether,Hemera -- 6. Eros[Amor.Fatí] 
                         /
                         3. Gaia -> Uranus
 
