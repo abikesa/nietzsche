@@ -398,9 +398,9 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#efficient-market-hypothesis">Efficient-Market Hypothesis</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ii-null-1-2-3-mu"><code class="docutils literal notranslate"><span class="pre">ii</span></code>: Null 1, 2, 3, <span class="math notranslate nohighlight">\(\mu\)</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#v7-sing-o-muse-4-sigma"><code class="docutils literal notranslate"><span class="pre">V7</span></code>: Sing O Muse 4, <span class="math notranslate nohighlight">\(\sigma\)</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-alternative-5-6"><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ii-null-1-2-3-mu-wednesday"><code class="docutils literal notranslate"><span class="pre">ii</span></code>: Null 1, 2, 3, <span class="math notranslate nohighlight">\(\mu\)</span> Wednesday</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#v7-sing-o-muse-4-sigma-year"><code class="docutils literal notranslate"><span class="pre">V7</span></code>: Sing O Muse 4, <span class="math notranslate nohighlight">\(\sigma\)</span> Year</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-alternative-5-6-tuesday"><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span> Tuesday</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#base-case">Base-case</a><ul class="nav section-nav flex-column">
@@ -409,11 +409,6 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beta-coefficients">Beta Coefficients</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-vector">Scenario Vector</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clinical-notes">Clinical Notes:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-details">Additional Details:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clinical-implications">Clinical Implications:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#directory-structure">Directory Structure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-by-step-workflow">Step-by-Step Workflow</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usage">Usage</a></li>
 </ul>
 </li>
@@ -457,27 +452,27 @@ d_2 = d_1 - \sigma \sqrt{T-t}
   <iframe src="https://www.youtube.com/embed/A5w-dEgIU1M?start=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
 </div>
 <figure class="align-default" id="id5">
-<a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 100%;" /></a>
+<a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
 <figcaption>
 <p><span class="caption-text"><em>Black-Scholes-Merton</em>. <strong>Call option price</strong> is analogous to the difference between the <code class="docutils literal notranslate"><span class="pre">base-case</span></code> &amp; <code class="docutils literal notranslate"><span class="pre">clinical-scenario</span></code>; i.e., <code class="docutils literal notranslate"><span class="pre">logHR</span></code>. In clinical medicine, we’ve kept our cumulative distribution functions non-parametric, at least for our base-case (62,000 citations: <a class="reference external" href="https://scholar.google.com/scholar?hl=en&amp;amp;as_sdt=0%2C21&amp;amp;q=Regression+Models+and+Life-Tables.%22&amp;amp;btnG=">Google Scholar</a>) <span id="id2"><sup><a class="reference internal" href="../act3/part3/part3_3.html#id3" title="Fischer Black and Myron Scholes. The pricing of options and corporate liabilities. Journal of Political Economy, 81(3):637–654, 1973.">34</a></sup></span> <span id="id3"><sup><a class="reference internal" href="../act3/part3/part3_3.html#id4" title="David R Cox. Regression models and life-tables. Journal of the Royal Statistical Society: Series B (Methodological), 34(2):187–202, 1972.">35</a></sup></span>. Here, <span class="math notranslate nohighlight">\(C\)</span> is the call option price, <span class="math notranslate nohighlight">\(S_0\)</span> is the current stock price, <span class="math notranslate nohighlight">\(X\)</span> is the strike price, <span class="math notranslate nohighlight">\(r\)</span> is the risk-free interest rate, <span class="math notranslate nohighlight">\(T\)</span> is the time to maturity, <span class="math notranslate nohighlight">\(\sigma\)</span> is the volatility of the stock, and <span class="math notranslate nohighlight">\(\mathcal{N}(\cdot)\)</span> is the cumulative distribution function of the standard normal distribution.</span><a class="headerlink" href="#id5" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
-<section id="ii-null-1-2-3-mu">
-<h3><code class="docutils literal notranslate"><span class="pre">ii</span></code>: Null 1, 2, 3, <span class="math notranslate nohighlight">\(\mu\)</span><a class="headerlink" href="#ii-null-1-2-3-mu" title="Permalink to this heading">#</a></h3>
+<section id="ii-null-1-2-3-mu-wednesday">
+<h3><code class="docutils literal notranslate"><span class="pre">ii</span></code>: Null 1, 2, 3, <span class="math notranslate nohighlight">\(\mu\)</span> Wednesday<a class="headerlink" href="#ii-null-1-2-3-mu-wednesday" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(f(t)\)</span> <code class="docutils literal notranslate"><span class="pre">Voir</span></code>: Random brownian motion as seen in digital information from Bloomberg Terminal; <span class="math notranslate nohighlight">\(\text{H}_0:\)</span> <code class="docutils literal notranslate"><span class="pre">logHR=0</span></code></p></li>
 <li><p><span class="math notranslate nohighlight">\(S(t)\)</span> <code class="docutils literal notranslate"><span class="pre">Savoir</span></code>: Compute may find patterns that Eugene Fama’s mind couldn’t</p></li>
 <li><p><span class="math notranslate nohighlight">\(h(t)\)</span> <code class="docutils literal notranslate"><span class="pre">Pouvoir</span></code>: <span class="math notranslate nohighlight">\(\mu | \text{X}\beta\)</span> ; <span class="math notranslate nohighlight">\(\sigma | t\)</span>; two overlayed multivariable <em>Kaplan-Meier’s</em></p></li>
 </ul>
 </section>
-<section id="v7-sing-o-muse-4-sigma">
-<h3><code class="docutils literal notranslate"><span class="pre">V7</span></code>: Sing O Muse 4, <span class="math notranslate nohighlight">\(\sigma\)</span><a class="headerlink" href="#v7-sing-o-muse-4-sigma" title="Permalink to this heading">#</a></h3>
+<section id="v7-sing-o-muse-4-sigma-year">
+<h3><code class="docutils literal notranslate"><span class="pre">V7</span></code>: Sing O Muse 4, <span class="math notranslate nohighlight">\(\sigma\)</span> Year<a class="headerlink" href="#v7-sing-o-muse-4-sigma-year" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\((X'X)^T \cdot X'Y\)</span> <code class="docutils literal notranslate"><span class="pre">Unpredictable</span></code>: Estimates <strong>conditional</strong> on factors millions of orders of magnitude more than human mind “tameth”; no wonder there’s been <strong>gnashing of teeth</strong></p></li>
 </ul>
 </section>
-<section id="i-alternative-5-6">
-<h3><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span><a class="headerlink" href="#i-alternative-5-6" title="Permalink to this heading">#</a></h3>
+<section id="i-alternative-5-6-tuesday">
+<h3><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span> Tuesday<a class="headerlink" href="#i-alternative-5-6-tuesday" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\beta\)</span> <code class="docutils literal notranslate"><span class="pre">Identity</span></code>: Some quants, programmers, and algorithms have produced better returns than the null-hypothesis over decades</p></li>
 <li><p><span class="math notranslate nohighlight">\(SV_t'\)</span> <code class="docutils literal notranslate"><span class="pre">Achievements</span></code>: Using super-human <code class="docutils literal notranslate"><span class="pre">AI</span></code> capabilities of machines to handle <span class="math notranslate nohighlight">\(N^N\)</span> <strong>parameters</strong>, <a class="reference external" href="https://en.wikipedia.org/wiki/Jim_Simons#Controversies">Jim Simmons</a> is the best way to summarize this</p></li>
@@ -807,9 +802,12 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 <img alt="../_images/78c90be7358f433fda239e2f5ace122303289358e91901155de3dccdfbeb23a4.png" src="../_images/78c90be7358f433fda239e2f5ace122303289358e91901155de3dccdfbeb23a4.png" />
 </div>
 </div>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<Details>
+    <Summary>
 <p>Sure, let’s make it more engaging and detailed. Here’s a clinical summary of the patient based on the given scenario vector:</p>
-<section id="clinical-notes">
-<h3>Clinical Notes:<a class="headerlink" href="#clinical-notes" title="Permalink to this heading">#</a></h3>
+<h3 class="rubric" id="clinical-notes">Clinical Notes:</h3>
 <p>This risk personalization is for a 60-year-old woman, given the centering age of 60 years.</p>
 <ul class="simple">
 <li><p><strong>Diabetes:</strong> She does not have diabetes.</p></li>
@@ -828,16 +826,12 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 <li><p><strong>Urine Albumin-to-Creatinine Ratio (UACR):</strong> Centered around the population mean.</p></li>
 <li><p><strong>Glucose-6-Phosphate Dehydrogenase (G6PD) Levels:</strong> Centered around the population mean.</p></li>
 </ul>
-</section>
-<section id="additional-details">
-<h3>Additional Details:<a class="headerlink" href="#additional-details" title="Permalink to this heading">#</a></h3>
+<h3 class="rubric" id="additional-details">Additional Details:</h3>
 <ul class="simple">
 <li><p><strong>Refused to answer other questions</strong> related to income levels beyond the reference category.</p></li>
 <li><p><strong>Age-Centered Adjustments:</strong> The patient’s specific clinical metrics (BMI, eGFR, UACR) are centered around the average values for a 60-year-old, indicating adjustments have been made to personalize risk based on age-related norms.</p></li>
 </ul>
-</section>
-<section id="clinical-implications">
-<h3>Clinical Implications:<a class="headerlink" href="#clinical-implications" title="Permalink to this heading">#</a></h3>
+<h3 class="rubric" id="clinical-implications">Clinical Implications:</h3>
 <p>This patient profile suggests a middle-aged woman who is generally in good health, well-managed in terms of her hypertension and diabetes, and has a background of modest education and income. The personalized risk assessment aims to provide a more accurate prediction based on her specific demographic and clinical characteristics.</p>
 <p>This summary should help understand the risk profile for this individual and guide personalized clinical decisions.</p>
 <p>To set up a tidy workflow for updating your app whenever you receive new sets of CSV files, you can follow these steps:</p>
@@ -847,11 +841,10 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 <li><p><strong>Use a version control system (Git)</strong>: Track changes and manage updates using Git.</p></li>
 <li><p><strong>Deploy the updated app</strong>: Automate the deployment process using tools like GitHub Pages or a CI/CD pipeline.</p></li>
 </ol>
-</section>
-<section id="directory-structure">
-<h3>Directory Structure<a class="headerlink" href="#directory-structure" title="Permalink to this heading">#</a></h3>
+<h3 class="rubric" id="directory-structure">Directory Structure</h3>
 <p>Ensure your directory structure looks like this:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ensi/
+</aside>
+<p>ensi/
 │
 ├── data/
 │   ├── SV_nondonor.csv
@@ -864,72 +857,71 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 │       │   └── js/
 │       │       └── script.js
 │       ├── index.html
-│       └── README.md
+│       └── <a class="reference external" href="http://README.md">README.md</a>
 │
 ├── update_data.py
 ├── requirements.txt
-└── README.md
-</pre></div>
-</div>
-</section>
-<section id="step-by-step-workflow">
-<h3>Step-by-Step Workflow<a class="headerlink" href="#step-by-step-workflow" title="Permalink to this heading">#</a></h3>
-<ol class="arabic simple">
-<li><p><strong>Write a Python script to update the data</strong>:</p></li>
-</ol>
-<p>Create a <code class="docutils literal notranslate"><span class="pre">update_data.py</span></code> script to read the CSV files, process the data, and update the necessary JavaScript files.</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">os</span>
+└── <a class="reference external" href="http://README.md">README.md</a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+### Step-by-Step Workflow
 
-<span class="c1"># Paths to the CSV files</span>
-<span class="n">data_dir</span> <span class="o">=</span> <span class="s1">&#39;data&#39;</span>
-<span class="n">sv_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span> <span class="s1">&#39;SV_nondonor.csv&#39;</span><span class="p">)</span>
-<span class="n">b_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span> <span class="s1">&#39;b_nondonor.csv&#39;</span><span class="p">)</span>
-<span class="n">s0_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span> <span class="s1">&#39;s0_nondonor.csv&#39;</span><span class="p">)</span>
+1. **Write a Python script to update the data**:
 
-<span class="c1"># Read the CSV files</span>
-<span class="n">sv_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">sv_file</span><span class="p">)</span>
-<span class="n">b_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">b_file</span><span class="p">)</span>
-<span class="n">s0_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">s0_file</span><span class="p">)</span>
+Create a `update_data.py` script to read the CSV files, process the data, and update the necessary JavaScript files.
 
-<span class="c1"># Process the data if needed</span>
-<span class="c1"># For example, if you need to format or clean the data, you can do it here</span>
+```python
+import pandas as pd
+import os
 
-<span class="c1"># Update JavaScript files with new data</span>
-<span class="n">js_file_path</span> <span class="o">=</span> <span class="s1">&#39;part2/app/assets/js/script.js&#39;</span>
+# Paths to the CSV files
+data_dir = &#39;data&#39;
+sv_file = os.path.join(data_dir, &#39;SV_nondonor.csv&#39;)
+b_file = os.path.join(data_dir, &#39;b_nondonor.csv&#39;)
+s0_file = os.path.join(data_dir, &#39;s0_nondonor.csv&#39;)
 
-<span class="c1"># Function to update the JavaScript file</span>
-<span class="k">def</span> <span class="nf">update_js_file</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="n">sv_df</span><span class="p">,</span> <span class="n">b_df</span><span class="p">,</span> <span class="n">s0_df</span><span class="p">):</span>
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-        <span class="n">js_content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+# Read the CSV files
+sv_df = pd.read_csv(sv_file)
+b_df = pd.read_csv(b_file)
+s0_df = pd.read_csv(s0_file)
+
+# Process the data if needed
+# For example, if you need to format or clean the data, you can do it here
+
+# Update JavaScript files with new data
+js_file_path = &#39;part2/app/assets/js/script.js&#39;
+
+# Function to update the JavaScript file
+def update_js_file(js_file_path, sv_df, b_df, s0_df):
+    with open(js_file_path, &#39;r&#39;) as file:
+        js_content = file.read()
     
-    <span class="c1"># Update the JS file content with the new data</span>
-    <span class="n">sv_data</span> <span class="o">=</span> <span class="n">sv_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">n&#39;</span><span class="p">)</span>
-    <span class="n">b_data</span> <span class="o">=</span> <span class="n">b_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">n&#39;</span><span class="p">)</span>
-    <span class="n">s0_data</span> <span class="o">=</span> <span class="n">s0_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">n&#39;</span><span class="p">)</span>
+    # Update the JS file content with the new data
+    sv_data = sv_df.to_csv(index=False, header=False).replace(&#39;\n&#39;, &#39;\\n&#39;)
+    b_data = b_df.to_csv(index=False, header=False).replace(&#39;\n&#39;, &#39;\\n&#39;)
+    s0_data = s0_df.to_csv(index=False, header=False).replace(&#39;\n&#39;, &#39;\\n&#39;)
     
-    <span class="n">js_content</span> <span class="o">=</span> <span class="n">js_content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
-        <span class="s2">&quot;const scenarioVector = [0, 0, 1]; // Default to general population scenario&quot;</span><span class="p">,</span>
-        <span class="sa">f</span><span class="s2">&quot;const scenarioVector = [</span><span class="si">{</span><span class="n">sv_data</span><span class="si">}</span><span class="s2">]; // Updated scenario vector&quot;</span>
-    <span class="p">)</span>
+    js_content = js_content.replace(
+        &quot;const scenarioVector = [0, 0, 1]; // Default to general population scenario&quot;,
+        f&quot;const scenarioVector = [{sv_data}]; // Updated scenario vector&quot;
+    )
     
-    <span class="n">js_content</span> <span class="o">=</span> <span class="n">js_content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
-        <span class="s2">&quot;let beta = [];&quot;</span><span class="p">,</span>
-        <span class="sa">f</span><span class="s2">&quot;let beta = [</span><span class="si">{</span><span class="n">b_data</span><span class="si">}</span><span class="s2">]; // Updated beta coefficients&quot;</span>
-    <span class="p">)</span>
+    js_content = js_content.replace(
+        &quot;let beta = [];&quot;,
+        f&quot;let beta = [{b_data}]; // Updated beta coefficients&quot;
+    )
     
-    <span class="n">js_content</span> <span class="o">=</span> <span class="n">js_content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
-        <span class="s2">&quot;let s0 = [];&quot;</span><span class="p">,</span>
-        <span class="sa">f</span><span class="s2">&quot;let s0 = [</span><span class="si">{</span><span class="n">s0_data</span><span class="si">}</span><span class="s2">]; // Updated survival data&quot;</span>
-    <span class="p">)</span>
+    js_content = js_content.replace(
+        &quot;let s0 = [];&quot;,
+        f&quot;let s0 = [{s0_data}]; // Updated survival data&quot;
+    )
     
-    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">js_content</span><span class="p">)</span>
+    with open(js_file_path, &#39;w&#39;) as file:
+        file.write(js_content)
 
-<span class="c1"># Update the JavaScript file</span>
-<span class="n">update_js_file</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="n">sv_df</span><span class="p">,</span> <span class="n">b_df</span><span class="p">,</span> <span class="n">s0_df</span><span class="p">)</span>
+# Update the JavaScript file
+update_js_file(js_file_path, sv_df, b_df, s0_df)
 
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;JavaScript file updated successfully.&quot;</span><span class="p">)</span>
+print(&quot;JavaScript file updated successfully.&quot;)
 </pre></div>
 </div>
 <ol class="arabic simple" start="2">
@@ -989,7 +981,6 @@ git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </sp
 git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
 </pre></div>
 </div>
-</section>
 <section id="usage">
 <h3>Usage<a class="headerlink" href="#usage" title="Permalink to this heading">#</a></h3>
 <p>Whenever you receive new CSV files:</p>
@@ -1005,10 +996,10 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
 </pre></div>
 </div>
 <p>This workflow ensures that your app is always updated with the latest data and deployed automatically.</p>
-<figure class="align-default" id="banner-welcome">
+</Details><figure class="align-default" id="banner-welcome">
 <a class="reference internal image-reference" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nietzsche_paul-ree_lou-von-salome188.jpg/220px-Nietzsche_paul-ree_lou-von-salome188.jpg"><img alt="Two people, a woman and a man, waving next to a banner that says - welcome." src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nietzsche_paul-ree_lou-von-salome188.jpg/220px-Nietzsche_paul-ree_lou-von-salome188.jpg" style="width: 100%;" /></a>
 <figcaption>
-<p><span class="caption-text"><em>Power dynamics</em>. Maintaining cheerfulness in the midst of a gloomy task, fraught with immeasurable responsibility, is no small feat; and yet what is needed more than cheerfulnenss? Nothing succeeds if prankishness has no part in it. Excess strength alone is hte proof of strength. <span id="id4"><sup><a class="reference internal" href="../act3/part3/part3_3.html#id2" title="Friedrich Nietzsche. Twilight of the Idols. Arcadia eBook, info&#64;arcadiaebook.com, 2016. Emphasizes the importance of maintaining cheerfulness in challenging tasks and the role of excess strength as proof of power.">36</a></sup></span></span><a class="headerlink" href="#banner-welcome" title="Permalink to this image">#</a></p>
+<p><span class="caption-text"><em>Power dynamics with Salome</em>. Maintaining cheerfulness in the midst of a gloomy task, fraught with immeasurable responsibility, is no small feat; and yet what is needed more than cheerfulnenss? Nothing succeeds if prankishness has no part in it. Excess strength alone is hte proof of strength. <span id="id4"><sup><a class="reference internal" href="../act3/part3/part3_3.html#id2" title="Friedrich Nietzsche. Twilight of the Idols. Arcadia eBook, info&#64;arcadiaebook.com, 2016. Emphasizes the importance of maintaining cheerfulness in challenging tasks and the role of excess strength as proof of power.">36</a></sup></span></span><a class="headerlink" href="#banner-welcome" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 <iframe src="../pdfs/mozart.pdf" width="100%" height="1000" style="borders:none"></iframe>
@@ -1065,9 +1056,9 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#efficient-market-hypothesis">Efficient-Market Hypothesis</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ii-null-1-2-3-mu"><code class="docutils literal notranslate"><span class="pre">ii</span></code>: Null 1, 2, 3, <span class="math notranslate nohighlight">\(\mu\)</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#v7-sing-o-muse-4-sigma"><code class="docutils literal notranslate"><span class="pre">V7</span></code>: Sing O Muse 4, <span class="math notranslate nohighlight">\(\sigma\)</span></a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-alternative-5-6"><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ii-null-1-2-3-mu-wednesday"><code class="docutils literal notranslate"><span class="pre">ii</span></code>: Null 1, 2, 3, <span class="math notranslate nohighlight">\(\mu\)</span> Wednesday</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#v7-sing-o-muse-4-sigma-year"><code class="docutils literal notranslate"><span class="pre">V7</span></code>: Sing O Muse 4, <span class="math notranslate nohighlight">\(\sigma\)</span> Year</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-alternative-5-6-tuesday"><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span> Tuesday</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#base-case">Base-case</a><ul class="nav section-nav flex-column">
@@ -1076,11 +1067,6 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beta-coefficients">Beta Coefficients</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-vector">Scenario Vector</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clinical-notes">Clinical Notes:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-details">Additional Details:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#clinical-implications">Clinical Implications:</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#directory-structure">Directory Structure</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#step-by-step-workflow">Step-by-Step Workflow</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usage">Usage</a></li>
 </ul>
 </li>
