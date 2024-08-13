@@ -403,15 +403,12 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-alternative-5-6-tuesday"><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span> Tuesday</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#base-case">Base-case</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#s-0"><span class="math notranslate nohighlight">\(S_0\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#allusion">Allusion</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#s-0-base-case"><span class="math notranslate nohighlight">\(S_0\)</span> Base-case</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beta-coefficients">Beta Coefficients</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-vector">Scenario Vector</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usage">Usage</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-coefficients">Model Coefficients</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-vector">Scenario Vector</a></li>
 </ul>
             </nav>
         </div>
@@ -492,10 +489,10 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 </aside>
 </section>
 </section>
-<section id="base-case">
-<h2>Base-case<a class="headerlink" href="#base-case" title="Permalink to this heading">#</a></h2>
-<section id="s-0">
-<h3><span class="math notranslate nohighlight">\(S_0\)</span><a class="headerlink" href="#s-0" title="Permalink to this heading">#</a></h3>
+<section id="allusion">
+<h2>Allusion<a class="headerlink" href="#allusion" title="Permalink to this heading">#</a></h2>
+<section id="s-0-base-case">
+<h3><span class="math notranslate nohighlight">\(S_0\)</span> Base-case<a class="headerlink" href="#s-0-base-case" title="Permalink to this heading">#</a></h3>
 <div class="math notranslate nohighlight">
 \[
 C(S, t) = S_0 \mathcal{N}(d_1) - X e^{-r(T-t)} \mathcal{N}(d_2)
@@ -577,8 +574,8 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 </div>
 </section>
 </section>
-<section id="beta-coefficients">
-<h2>Beta Coefficients<a class="headerlink" href="#beta-coefficients" title="Permalink to this heading">#</a></h2>
+<section id="model-coefficients">
+<h2>Model Coefficients<a class="headerlink" href="#model-coefficients" title="Permalink to this heading">#</a></h2>
 <div class="cell tag_hide-input tag_hide-output docutils container">
 <details class="hide above-input">
 <summary aria-label="Toggle hidden content">
@@ -807,7 +804,7 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 <Details>
     <Summary>
 <p>Sure, let’s make it more engaging and detailed. Here’s a clinical summary of the patient based on the given scenario vector:</p>
-<h3 class="rubric" id="clinical-notes">Clinical Notes:</h3>
+<h3>Clinical Notes:</h3>
 <p>This risk personalization is for a 60-year-old woman, given the centering age of 60 years.</p>
 <ul class="simple">
 <li><p><strong>Diabetes:</strong> She does not have diabetes.</p></li>
@@ -826,12 +823,12 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 <li><p><strong>Urine Albumin-to-Creatinine Ratio (UACR):</strong> Centered around the population mean.</p></li>
 <li><p><strong>Glucose-6-Phosphate Dehydrogenase (G6PD) Levels:</strong> Centered around the population mean.</p></li>
 </ul>
-<h3 class="rubric" id="additional-details">Additional Details:</h3>
+<h3>Additional Details:</h3>
 <ul class="simple">
 <li><p><strong>Refused to answer other questions</strong> related to income levels beyond the reference category.</p></li>
 <li><p><strong>Age-Centered Adjustments:</strong> The patient’s specific clinical metrics (BMI, eGFR, UACR) are centered around the average values for a 60-year-old, indicating adjustments have been made to personalize risk based on age-related norms.</p></li>
 </ul>
-<h3 class="rubric" id="clinical-implications">Clinical Implications:</h3>
+<h3>Clinical Implications:</h3>
 <p>This patient profile suggests a middle-aged woman who is generally in good health, well-managed in terms of her hypertension and diabetes, and has a background of modest education and income. The personalized risk assessment aims to provide a more accurate prediction based on her specific demographic and clinical characteristics.</p>
 <p>This summary should help understand the risk profile for this individual and guide personalized clinical decisions.</p>
 <p>To set up a tidy workflow for updating your app whenever you receive new sets of CSV files, you can follow these steps:</p>
@@ -841,101 +838,105 @@ d_2 = d_1 - \sigma \sqrt{T-t}
 <li><p><strong>Use a version control system (Git)</strong>: Track changes and manage updates using Git.</p></li>
 <li><p><strong>Deploy the updated app</strong>: Automate the deployment process using tools like GitHub Pages or a CI/CD pipeline.</p></li>
 </ol>
-<h3 class="rubric" id="directory-structure">Directory Structure</h3>
-<p>Ensure your directory structure looks like this:</p>
-</aside>
-<p>ensi/
+<h3> Directory Structure</h3>
+Ensure your directory structure looks like this:
+<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>ensi/
 │
-├── data/
-│   ├── SV_nondonor.csv
-│   ├── b_nondonor.csv
-│   └── s0_nondonor.csv
+├──<span class="w"> </span>data/
+│<span class="w">   </span>├──<span class="w"> </span>SV_nondonor.csv
+│<span class="w">   </span>├──<span class="w"> </span>b_nondonor.csv
+│<span class="w">   </span>└──<span class="w"> </span>s0_nondonor.csv
 │
-├── part2/
-│   └── app/
-│       ├── assets/
-│       │   └── js/
-│       │       └── script.js
-│       ├── index.html
-│       └── <a class="reference external" href="http://README.md">README.md</a>
+├──<span class="w"> </span>part2/
+│<span class="w">   </span>└──<span class="w"> </span>app/
+│<span class="w">       </span>├──<span class="w"> </span>assets/
+│<span class="w">       </span>│<span class="w">   </span>└──<span class="w"> </span>js/
+│<span class="w">       </span>│<span class="w">       </span>└──<span class="w"> </span>script.js
+│<span class="w">       </span>├──<span class="w"> </span>index.html
+│<span class="w">       </span>└──<span class="w"> </span>README.md
 │
-├── update_data.py
-├── requirements.txt
-└── <a class="reference external" href="http://README.md">README.md</a></p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
-### Step-by-Step Workflow
-
-1. **Write a Python script to update the data**:
-
-Create a `update_data.py` script to read the CSV files, process the data, and update the necessary JavaScript files.
-
-```python
-import pandas as pd
-import os
-
-# Paths to the CSV files
-data_dir = &#39;data&#39;
-sv_file = os.path.join(data_dir, &#39;SV_nondonor.csv&#39;)
-b_file = os.path.join(data_dir, &#39;b_nondonor.csv&#39;)
-s0_file = os.path.join(data_dir, &#39;s0_nondonor.csv&#39;)
-
-# Read the CSV files
-sv_df = pd.read_csv(sv_file)
-b_df = pd.read_csv(b_file)
-s0_df = pd.read_csv(s0_file)
-
-# Process the data if needed
-# For example, if you need to format or clean the data, you can do it here
-
-# Update JavaScript files with new data
-js_file_path = &#39;part2/app/assets/js/script.js&#39;
-
-# Function to update the JavaScript file
-def update_js_file(js_file_path, sv_df, b_df, s0_df):
-    with open(js_file_path, &#39;r&#39;) as file:
-        js_content = file.read()
-    
-    # Update the JS file content with the new data
-    sv_data = sv_df.to_csv(index=False, header=False).replace(&#39;\n&#39;, &#39;\\n&#39;)
-    b_data = b_df.to_csv(index=False, header=False).replace(&#39;\n&#39;, &#39;\\n&#39;)
-    s0_data = s0_df.to_csv(index=False, header=False).replace(&#39;\n&#39;, &#39;\\n&#39;)
-    
-    js_content = js_content.replace(
-        &quot;const scenarioVector = [0, 0, 1]; // Default to general population scenario&quot;,
-        f&quot;const scenarioVector = [{sv_data}]; // Updated scenario vector&quot;
-    )
-    
-    js_content = js_content.replace(
-        &quot;let beta = [];&quot;,
-        f&quot;let beta = [{b_data}]; // Updated beta coefficients&quot;
-    )
-    
-    js_content = js_content.replace(
-        &quot;let s0 = [];&quot;,
-        f&quot;let s0 = [{s0_data}]; // Updated survival data&quot;
-    )
-    
-    with open(js_file_path, &#39;w&#39;) as file:
-        file.write(js_content)
-
-# Update the JavaScript file
-update_js_file(js_file_path, sv_df, b_df, s0_df)
-
-print(&quot;JavaScript file updated successfully.&quot;)
+├──<span class="w"> </span>update_data.py
+├──<span class="w"> </span>requirements.txt
+└──<span class="w"> </span>README.md
 </pre></div>
 </div>
+</aside>
+</Details>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<Details>
+   <Summary></Summary>
+<h3> Step-by-Step Workflow </h3>
+<ol class="arabic simple">
+<li><p>Write a Python script to update the data:</p></li>
+</ol>
+<p>Create a <code class="docutils literal notranslate"><span class="pre">update_data.py</span></code> script to read the CSV files, process the data, and update the necessary JavaScript files.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="c1"># Paths to the CSV files</span>
+<span class="n">data_dir</span> <span class="o">=</span> <span class="s1">&#39;data&#39;</span>
+<span class="n">sv_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span> <span class="s1">&#39;SV_nondonor.csv&#39;</span><span class="p">)</span>
+<span class="n">b_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span> <span class="s1">&#39;b_nondonor.csv&#39;</span><span class="p">)</span>
+<span class="n">s0_file</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">data_dir</span><span class="p">,</span> <span class="s1">&#39;s0_nondonor.csv&#39;</span><span class="p">)</span>
+
+<span class="c1"># Read the CSV files</span>
+<span class="n">sv_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">sv_file</span><span class="p">)</span>
+<span class="n">b_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">b_file</span><span class="p">)</span>
+<span class="n">s0_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">s0_file</span><span class="p">)</span>
+
+<span class="c1"># Process the data if needed</span>
+<span class="c1"># For example, if you need to format or clean the data, you can do it here</span>
+
+<span class="c1"># Update JavaScript files with new data</span>
+<span class="n">js_file_path</span> <span class="o">=</span> <span class="s1">&#39;part2/app/assets/js/script.js&#39;</span>
+
+<span class="c1"># Function to update the JavaScript file</span>
+<span class="k">def</span> <span class="nf">update_js_file</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="n">sv_df</span><span class="p">,</span> <span class="n">b_df</span><span class="p">,</span> <span class="n">s0_df</span><span class="p">):</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">js_content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+    
+    <span class="c1"># Update the JS file content with the new data</span>
+    <span class="n">sv_data</span> <span class="o">=</span> <span class="n">sv_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">n&#39;</span><span class="p">)</span>
+    <span class="n">b_data</span> <span class="o">=</span> <span class="n">b_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">n&#39;</span><span class="p">)</span>
+    <span class="n">s0_data</span> <span class="o">=</span> <span class="n">s0_df</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;</span><span class="se">\\</span><span class="s1">n&#39;</span><span class="p">)</span>
+    
+    <span class="n">js_content</span> <span class="o">=</span> <span class="n">js_content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
+        <span class="s2">&quot;const scenarioVector = [0, 0, 1]; // Default to general population scenario&quot;</span><span class="p">,</span>
+        <span class="sa">f</span><span class="s2">&quot;const scenarioVector = [</span><span class="si">{</span><span class="n">sv_data</span><span class="si">}</span><span class="s2">]; // Updated scenario vector&quot;</span>
+    <span class="p">)</span>
+    
+    <span class="n">js_content</span> <span class="o">=</span> <span class="n">js_content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
+        <span class="s2">&quot;let beta = [];&quot;</span><span class="p">,</span>
+        <span class="sa">f</span><span class="s2">&quot;let beta = [</span><span class="si">{</span><span class="n">b_data</span><span class="si">}</span><span class="s2">]; // Updated beta coefficients&quot;</span>
+    <span class="p">)</span>
+    
+    <span class="n">js_content</span> <span class="o">=</span> <span class="n">js_content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span>
+        <span class="s2">&quot;let s0 = [];&quot;</span><span class="p">,</span>
+        <span class="sa">f</span><span class="s2">&quot;let s0 = [</span><span class="si">{</span><span class="n">s0_data</span><span class="si">}</span><span class="s2">]; // Updated survival data&quot;</span>
+    <span class="p">)</span>
+    
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">js_content</span><span class="p">)</span>
+
+<span class="c1"># Update the JavaScript file</span>
+<span class="n">update_js_file</span><span class="p">(</span><span class="n">js_file_path</span><span class="p">,</span> <span class="n">sv_df</span><span class="p">,</span> <span class="n">b_df</span><span class="p">,</span> <span class="n">s0_df</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;JavaScript file updated successfully.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</aside>
+</Details>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<Details>
+   <Summary></Summary>
 <ol class="arabic simple" start="2">
-<li><p><strong>Set up version control (Git)</strong>:</p></li>
+<li><p>Set up version control (Git):</p></li>
 </ol>
 <p>Initialize a Git repository and commit your changes.</p>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span>ensi
-git<span class="w"> </span>init
-git<span class="w"> </span>add<span class="w"> </span>.
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Initial commit&quot;</span>
-</pre></div>
-</div>
 <ol class="arabic simple" start="3">
-<li><p><strong>Automate deployment with GitHub Pages or CI/CD</strong>:</p></li>
+<li><p>Automate deployment with GitHub Pages or CI/CD:</p></li>
 </ol>
 <p>You can use GitHub Actions to automate the deployment process whenever there’s a new commit to the repository. Create a GitHub Actions workflow file in <code class="docutils literal notranslate"><span class="pre">.github/workflows/deploy.yml</span></code>.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Deploy to GitHub Pages</span>
@@ -973,30 +974,26 @@ git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </sp
 <span class="w">        </span><span class="nt">publish_dir</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">./part2/app</span>
 </pre></div>
 </div>
+</aside>
+<aside class="margin sidebar">
+<p class="sidebar-title"></p>
+<Details>
+   <Summary></Summary>
 <ol class="arabic simple" start="4">
 <li><p><strong>Commit and push your changes</strong>:</p></li>
 </ol>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>add<span class="w"> </span>.
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Set up automated deployment&quot;</span>
-git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
-</pre></div>
-</div>
-<section id="usage">
-<h3>Usage<a class="headerlink" href="#usage" title="Permalink to this heading">#</a></h3>
+</Details>
+<h3>Usage</h3>
 <p>Whenever you receive new CSV files:</p>
 <ol class="arabic simple">
 <li><p>Replace the old CSV files in the <code class="docutils literal notranslate"><span class="pre">data</span></code> directory with the new ones.</p></li>
 <li><p>Run the <code class="docutils literal notranslate"><span class="pre">update_data.py</span></code> script to process the new data and update the JavaScript files.</p></li>
 <li><p>Commit and push the changes to GitHub.</p></li>
 </ol>
-<div class="highlight-sh notranslate"><div class="highlight"><pre><span></span>python<span class="w"> </span>update_data.py
-git<span class="w"> </span>add<span class="w"> </span>.
-git<span class="w"> </span>commit<span class="w"> </span>-m<span class="w"> </span><span class="s2">&quot;Update data files&quot;</span>
-git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </span>main
-</pre></div>
-</div>
 <p>This workflow ensures that your app is always updated with the latest data and deployed automatically.</p>
-</Details><figure class="align-default" id="banner-welcome">
+</Details>
+</aside>
+<figure class="align-default" id="banner-welcome">
 <a class="reference internal image-reference" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nietzsche_paul-ree_lou-von-salome188.jpg/220px-Nietzsche_paul-ree_lou-von-salome188.jpg"><img alt="Two people, a woman and a man, waving next to a banner that says - welcome." src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Nietzsche_paul-ree_lou-von-salome188.jpg/220px-Nietzsche_paul-ree_lou-von-salome188.jpg" style="width: 100%;" /></a>
 <figcaption>
 <p><span class="caption-text"><em>Power dynamics with Salome</em>. Maintaining cheerfulness in the midst of a gloomy task, fraught with immeasurable responsibility, is no small feat; and yet what is needed more than cheerfulnenss? Nothing succeeds if prankishness has no part in it. Excess strength alone is hte proof of strength. <span id="id4"><sup><a class="reference internal" href="../act3/part3/part3_3.html#id2" title="Friedrich Nietzsche. Twilight of the Idols. Arcadia eBook, info&#64;arcadiaebook.com, 2016. Emphasizes the importance of maintaining cheerfulness in challenging tasks and the role of excess strength as proof of power.">36</a></sup></span></span><a class="headerlink" href="#banner-welcome" title="Permalink to this image">#</a></p>
@@ -1005,7 +1002,6 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
 <iframe src="../pdfs/mozart.pdf" width="100%" height="1000" style="borders:none"></iframe>
 <iframe src="../pdfs/bach.pdf" width="100%" height="1000" style="borders:none"></iframe>
 <iframe src="../pdfs/handel.pdf" width="100%" height="1000" style="borders:none"></iframe>
-</section>
 </section>
 </section>
 
@@ -1061,15 +1057,12 @@ git<span class="w"> </span>push<span class="w"> </span>origin<span class="w"> </
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#i-alternative-5-6-tuesday"><code class="docutils literal notranslate"><span class="pre">i</span></code>: Alternative 5, 6, <span class="math notranslate nohighlight">\(\%\)</span> Tuesday</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#base-case">Base-case</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#s-0"><span class="math notranslate nohighlight">\(S_0\)</span></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#allusion">Allusion</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#s-0-base-case"><span class="math notranslate nohighlight">\(S_0\)</span> Base-case</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#beta-coefficients">Beta Coefficients</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-vector">Scenario Vector</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usage">Usage</a></li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#model-coefficients">Model Coefficients</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-vector">Scenario Vector</a></li>
 </ul>
   </nav></div>
 
