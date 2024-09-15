@@ -500,6 +500,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#last-word">62. Last Word</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#one-more-thing">63. One More Thing!</a></li>
 </ul>
 </li>
 </ul>
@@ -2069,6 +2070,89 @@ Max Martin’s focus on phonetics over meaning is a brilliant strategy, especial
 <p><em>Miller’s Crossing</em> fits wonderfully into the DRE dilemma. The moral ambiguity of Tom Reagan is exactly what defines the late stage of life: there’s no clean justice, only survival in a world where relationships, loyalties, and ethics twist into unrecognizable forms. The detail you added about Leo being “a man who has seen things” and his uncomfortable handling of his yarmulke after marrying Verna ties together the tension of leaving behind the soldier’s life. It’s almost like watching a man trying to reconcile his past as a fighter with the weight of responsibility now bearing down on him.</p>
 <p>Your final conclusion brings it all together perfectly: life’s stages are all about the messy transition between ART, STEM, and DRE, where no one exits as cleanly as they entered. <em>GPT-4o</em></p>
 </section>
+<section id="one-more-thing">
+<h3>63. One More Thing!<a class="headerlink" href="#one-more-thing" title="Permalink to this heading">#</a></h3>
+<iframe width="100%" height="700" src="https://www.youtube.com/embed/XHRSA6bEHjE?start=82" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="c1"># Create a directed graph</span>
+<span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">DiGraph</span><span class="p">()</span>
+
+<span class="c1"># Add nodes representing different levels (subatomic, atomic, cosmic, financial, social)</span>
+<span class="n">levels</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;i: Fighters&#39;</span><span class="p">,</span> <span class="s1">&#39;ii7♭5: Punters&#39;</span><span class="p">,</span> <span class="s1">&#39;V7: Bookies&#39;</span><span class="p">]</span>
+
+<span class="c1"># Add nodes to the graph</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">levels</span><span class="p">)</span>
+
+<span class="c1"># Add edges to represent the flow of information (photons)</span>
+<span class="c1"># Assuming the flow is directional from more fundamental levels to more complex ones</span>
+<span class="n">edges</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;ii7♭5: Punters&#39;</span><span class="p">,</span> <span class="s1">&#39;V7: Bookies&#39;</span><span class="p">),</span>
+         <span class="p">(</span><span class="s1">&#39;V7: Bookies&#39;</span><span class="p">,</span> <span class="s1">&#39;i: Fighters&#39;</span><span class="p">),]</span>
+
+<span class="c1"># Add edges to the graph</span>
+<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edges</span><span class="p">)</span>
+
+<span class="c1"># Define positions for the nodes in a circular layout</span>
+<span class="n">pos</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">circular_layout</span><span class="p">(</span><span class="n">G</span><span class="p">)</span>
+
+<span class="c1"># Set the figure size (width, height)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>  <span class="c1"># Adjust the size as needed</span>
+
+<span class="c1"># Draw the main nodes</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_nodes</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">node_color</span><span class="o">=</span><span class="s1">&#39;lightblue&#39;</span><span class="p">,</span> <span class="n">node_size</span><span class="o">=</span><span class="mi">30000</span><span class="p">)</span>
+
+<span class="c1"># Draw the edges with arrows and create space between the arrowhead and the node</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_edges</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">arrowstyle</span><span class="o">=</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">,</span> <span class="n">arrowsize</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">edge_color</span><span class="o">=</span><span class="s1">&#39;grey&#39;</span><span class="p">,</span>
+                       <span class="n">connectionstyle</span><span class="o">=</span><span class="s1">&#39;arc3,rad=0.2&#39;</span><span class="p">)</span>  <span class="c1"># Adjust rad for more/less space</span>
+
+<span class="c1"># Add smaller red nodes (photon nodes) exactly on the circular layout</span>
+<span class="k">for</span> <span class="n">edge</span> <span class="ow">in</span> <span class="n">edges</span><span class="p">:</span>
+    <span class="c1"># Calculate the vector between the two nodes</span>
+    <span class="n">vector</span> <span class="o">=</span> <span class="n">pos</span><span class="p">[</span><span class="n">edge</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span> <span class="o">-</span> <span class="n">pos</span><span class="p">[</span><span class="n">edge</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span>
+    <span class="c1"># Calculate the midpoint</span>
+    <span class="n">mid_point</span> <span class="o">=</span> <span class="n">pos</span><span class="p">[</span><span class="n">edge</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">vector</span>
+    <span class="c1"># Normalize to ensure it&#39;s on the circle</span>
+    <span class="n">radius</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">pos</span><span class="p">[</span><span class="n">edge</span><span class="p">[</span><span class="mi">0</span><span class="p">]])</span>
+    <span class="n">mid_point_on_circle</span> <span class="o">=</span> <span class="n">mid_point</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">mid_point</span><span class="p">)</span> <span class="o">*</span> <span class="n">radius</span>
+    <span class="c1"># Draw the small red photon node at the midpoint on the circular layout</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">(</span><span class="n">mid_point_on_circle</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">mid_point_on_circle</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;lightpink&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">500</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+
+    <span class="c1"># Draw a small lime green arrow inside the red node to indicate direction</span>
+    <span class="n">arrow_vector</span> <span class="o">=</span> <span class="n">vector</span> <span class="o">/</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">norm</span><span class="p">(</span><span class="n">vector</span><span class="p">)</span> <span class="o">*</span> <span class="mf">0.1</span>  <span class="c1"># Scale down arrow size</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">arrow</span><span class="p">(</span><span class="n">mid_point_on_circle</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.05</span> <span class="o">*</span> <span class="n">arrow_vector</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span>
+              <span class="n">mid_point_on_circle</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">-</span> <span class="mf">0.05</span> <span class="o">*</span> <span class="n">arrow_vector</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+              <span class="n">arrow_vector</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">arrow_vector</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span>
+              <span class="n">head_width</span><span class="o">=</span><span class="mf">0.03</span><span class="p">,</span> <span class="n">head_length</span><span class="o">=</span><span class="mf">0.05</span><span class="p">,</span> <span class="n">fc</span><span class="o">=</span><span class="s1">&#39;limegreen&#39;</span><span class="p">,</span> <span class="n">ec</span><span class="o">=</span><span class="s1">&#39;limegreen&#39;</span><span class="p">,</span> <span class="n">zorder</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="c1"># Draw the labels for the main nodes</span>
+<span class="n">nx</span><span class="o">.</span><span class="n">draw_networkx_labels</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="n">pos</span><span class="p">,</span> <span class="n">font_size</span><span class="o">=</span><span class="mi">18</span><span class="p">,</span> <span class="n">font_weight</span><span class="o">=</span><span class="s1">&#39;normal&#39;</span><span class="p">)</span>
+
+<span class="c1"># Add a legend for &quot;Photon/Info&quot;</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">scatter</span><span class="p">([],</span> <span class="p">[],</span> <span class="n">c</span><span class="o">=</span><span class="s1">&#39;lightpink&#39;</span><span class="p">,</span> <span class="n">s</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s1">&#39;Chord Progression&#39;</span><span class="p">)</span>  <span class="c1"># Empty scatter for the legend</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">scatterpoints</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">frameon</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">labelspacing</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper right&#39;</span><span class="p">)</span>
+
+<span class="c1"># Set the title and display the plot</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Emotional Arc&#39;</span><span class="p">,</span> <span class="n">fontsize</span><span class="o">=</span><span class="mi">15</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">axis</span><span class="p">(</span><span class="s1">&#39;off&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/13be2161d313f538a01224eca47078e392ed5527bff7944c61e7fe35a9c43562.png" src="../_images/13be2161d313f538a01224eca47078e392ed5527bff7944c61e7fe35a9c43562.png" />
+</div>
+</div>
+<figure class="align-default" id="id11">
+<a class="reference internal image-reference" href="../_images/blanche.png"><img alt="../_images/blanche.png" src="../_images/blanche.png" style="width: 1px; height: 1px;" /></a>
+<figcaption>
+<p><span class="caption-text"><em>“Screw You, Taylor” -Megyn Kelly’s Epic Rant</em>. There are three categories of playas in the drama of life: composers, performers, and audience. In the world of gambling &amp; betting we might label these makers, rivals, and speculators. Wall street gives us investment banks, startups, and wagerers. The speculators may be professional or amateur &amp; the rivals might be agents or principal owners. But there’s a *<em>mafia</em> sort who go about influencing the outcomes at stake: perhaps pay a fighter to tank, or direct “<a class="reference external" href="https://en.wikipedia.org/wiki/Fan_(person)#%22Stan%22_fans">stans</a>” to place a uniform bet in a way that affects the odds. Our metaphor is attempting to bridge the abstract with real world of polls, candidates, and voters. We are now in position to make sense of MK’s tirade.</span><a class="headerlink" href="#id11" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
 </section>
 </section>
 
@@ -2221,6 +2305,7 @@ Max Martin’s focus on phonetics over meaning is a brilliant strategy, especial
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#last-word">62. Last Word</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#one-more-thing">63. One More Thing!</a></li>
 </ul>
 </li>
 </ul>
