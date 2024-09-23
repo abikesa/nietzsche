@@ -1,13 +1,12 @@
 
-
 <!DOCTYPE html>
 
 
-<html lang="en" data-content_root="" >
+<html lang="en" data-content_root="../" >
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Rx &#8212; The Gambler</title>
   
@@ -29,44 +28,43 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/book-stylesheet.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=87e54e7c" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-dropdown.css?v=995e94df" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-bootstrap.min.css?v=21c0b90a" />
+    <link rel="stylesheet" type="text/css" href="../_static/book-stylesheet.css?v=cd6267f6" />
+    <link rel="stylesheet" type="text/css" href="../_static/custom.css?v=56b78222" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
   <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
 <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
   <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/sphinx_highlight.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
     <script>let toggleHintShow = 'Click to show';</script>
     <script>let toggleHintHide = 'Click to hide';</script>
     <script>let toggleOpenOnPrint = 'true';</script>
-    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
-    <script src="../_static/design-tabs.js"></script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'rx/rxgpt';</script>
-    <script src="../_static/script.js"></script>
+    <script src="../_static/script.js?v=749f486f"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -189,7 +187,6 @@
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../act2/part2.html">Aim 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../act2/chapter1.html">Hospitalization</a></li>
-
 <li class="toctree-l2"><a class="reference internal" href="../act2/chapter2.html">Length of Stay</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../act2/chapter3.html">Outcomes</a></li>
 </ul>
@@ -416,7 +413,7 @@ document.write(`
                 <article class="bd-article">
                   
   <section class="tex2jax_ignore mathjax_ignore" id="rx">
-<span id="id1"></span><h1>Rx<a class="headerlink" href="#rx" title="Permalink to this heading">#</a></h1>
+<span id="id1"></span><h1>Rx<a class="headerlink" href="#rx" title="Link to this heading">#</a></h1>
 <blockquote>
 <div><p><em>Our WebApp offers six improvements on what is available in the literature and practice: sampling distribution, absolute risks, distinct hazards by phenotype, confidence intervals for individualized risk, explicitly reveals the footprint of missingness by parameter, and personalizes risk on a kaplan-meier curve for the user</em></p>
 </div></blockquote>
@@ -442,7 +439,7 @@ document.write(`
 </Details>
 </aside>
 <section id="specialist">
-<h2>Specialist<a class="headerlink" href="#specialist" title="Permalink to this heading">#</a></h2>
+<h2>Specialist<a class="headerlink" href="#specialist" title="Link to this heading">#</a></h2>
 <ul class="simple">
 <li><p>With any individualized prediction in science, a patient can’t say “that resonates” with me. The numbers are abstract and they’ve never experienced the outcome</p></li>
 <li><p>But with art or tragedy the eternal recurrence of the same is encoded in the latent-space or collective unconscious and so it can resonate</p></li>
@@ -451,7 +448,7 @@ document.write(`
 <li><p>The structure of this discourse is : <span class="math notranslate nohighlight">\(\mu\)</span>: base-case, <span class="math notranslate nohighlight">\(\sigma\)</span> varcov-matrix, <span class="math notranslate nohighlight">\(\%\)</span> predictive-accuracy</p></li>
 </ul>
 <section id="mu-base-case">
-<h3><span class="math notranslate nohighlight">\(\mu\)</span> Base-case<a class="headerlink" href="#mu-base-case" title="Permalink to this heading">#</a></h3>
+<h3><span class="math notranslate nohighlight">\(\mu\)</span> Base-case<a class="headerlink" href="#mu-base-case" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(f(t)\)</span> l’homme moyen. But with five pdf’s, reflecting modalities</p>
 <ul>
@@ -502,7 +499,7 @@ document.write(`
 </ul>
 </section>
 <section id="sigma-varcov-matrix">
-<h3><span class="math notranslate nohighlight">\(\sigma\)</span> Varcov-matrix<a class="headerlink" href="#sigma-varcov-matrix" title="Permalink to this heading">#</a></h3>
+<h3><span class="math notranslate nohighlight">\(\sigma\)</span> Varcov-matrix<a class="headerlink" href="#sigma-varcov-matrix" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>var[<span class="math notranslate nohighlight">\((X'X)^T \cdot X'Y\)</span>] think: the variability of courses &amp; items in italian cuisine &amp; modes-qualities-relatives in chopin</p>
 <ul>
@@ -515,7 +512,7 @@ document.write(`
 </ul>
 </section>
 <section id="predictive-accuracy">
-<h3><span class="math notranslate nohighlight">\(\%\)</span> Predictive-accuracy<a class="headerlink" href="#predictive-accuracy" title="Permalink to this heading">#</a></h3>
+<h3><span class="math notranslate nohighlight">\(\%\)</span> Predictive-accuracy<a class="headerlink" href="#predictive-accuracy" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\beta\)</span> my palate craves <code class="docutils literal notranslate"><span class="pre">very</span> <span class="pre">diverse</span> <span class="pre">things</span></code> over time &amp; i can only tell what i want on a given day</p></li>
 <li><p><span class="math notranslate nohighlight">\(SV'\)</span> <span class="math notranslate nohighlight">\(\ge 85\)</span> only a very rich culture can throw me a bone to chew on that will keep me engaged</p>
@@ -527,7 +524,7 @@ document.write(`
 </section>
 </section>
 <section id="generalist">
-<h2>Generalist<a class="headerlink" href="#generalist" title="Permalink to this heading">#</a></h2>
+<h2>Generalist<a class="headerlink" href="#generalist" title="Link to this heading">#</a></h2>
 <blockquote>
 <div><p><em>Arte (Imitation) &amp; Scienza (Prediction) = Tragedy (Representation). When the products of art, science, or tragedy resonate with us, they have been accurately decoded with all the parameter coefficients similar to our own</em></p>
 </div></blockquote>
